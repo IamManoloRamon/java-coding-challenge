@@ -44,6 +44,12 @@ public class main {
         System.out.println(detectCapitalUse("USA"));
         System.out.println(ReverseStringManual("hello"));
         System.out.println(ReverseStringWithStringBuilder("hello"));
+
+        // Stack
+        Stack s = new Stack(6);
+        s.push(3);
+        s.pop();
+        s.peek();
     }
 
     // Code challenge: 1
